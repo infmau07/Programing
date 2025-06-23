@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/fondo.css">
+    <link rel="stylesheet" href="CSS/barra.css" >
+    <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="CSS/apartados.css">
+    <link rel="shortcut icon" href="IMG/hollow.ico" type="image/x-icon">
+    <script src="JS/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BasicProgramming</title>
+</head>
+<body>
+
+<div class="top-bar"> <!-- Barra principal -->
+  <div class="menu">
+  <label class="main">
+    Menu
+    <input class="inp" checked="" type="checkbox" />
+    <div class="bar">
+      <span class="top bar-list"></span>
+      <span class="middle bar-list"></span>
+      <span class="bottom bar-list"></span>
+    </div>
+    <section class="menu-container">
+      
+<div class="menu-list"> <a href="index.html"> Inicio </a> </div>
+
+      <div class="menu-list"> Unidad 1
+        <div class="submenu">
+          <div class="submenu-list"><a href="Introduccion.html"> Introducción </a></div>
+          <div class="submenu-list"><a href="codigos.html"> Actividades </a></div>
+          <div class="submenu-list"><a href="conclusion.html"> Conclusión </a></div>
+        </div>
+      </div>
+
+      <div class="menu-list"> Unidad 2
+        <div class="submenu">
+          <div class="submenu-list"><a href="Introduccion1.html"> Introducción </a></div>
+          <div class="submenu-list"><a href="codigos1.html"> Actividades </a></div>
+          <div class="submenu-list"><a href="conclusion1.html"> Conclusión </a></div>
+        </div>
+      </div>
+
+      <div class="menu-list"> Unidad 3
+        <div class="submenu">
+          <div class="submenu-list"><a href="Introduccion2.html"> Introducción </a></div>
+          <div class="submenu-list"><a href="codigos2.html"> Actividades</a></div>
+          <div class="submenu-list"><a href="conclusion2.html"> Conclusión </a></div>
+        </div>
+      </div>
+
+    </section>
+  </label>
+  </div>
+
+    <div class="info-bar">
+      <h1>BasicProgramming. Unidad 3 Actividades</h1>
+      <p>Donde todo un semestre prevalece.</p>
+    </div>
+</div>
+
+<p>&nbsp;</p>
+
+<div class="container colors">
+
+  <div class="accordion-item">
+    <button class="accordion-header" onclick="toggleAccordion(this)">
+      <span class="accordion-title">Investigaciones y trabajos.</span>
+      <svg class="accordion-arrow" viewBox="0 0 24 24">
+        <path d="M7 10l5 5 5-5z"/>
+      </svg>
+    </button>
+
+    <div class="accordion-content">
+      <div class="content-section">
+        <h3>Investigaciones</h3>
+        <div class="code-block">
+          <code>
+            <h3>Sistemas gestores de base de datos para Android</h3>
+            <p><span class="highlight">Se investigo sobre las distintas bases de datos para Android. las cuales fueron MySQL, SQLite, ROOM, ORM</span></p>
+            <h4>MySQL</h4>
+            <p><samp class="highlight">
+              -Es un sistema de gestión de bases de datos relacionales (RDBMS) de código abierto que se utiliza para almacenar y gestionar datos. <br>
+              -A diferencia de SQLite y Room, MySQL se ejecuta en un servidor y requiere una conexión de red para acceder a los datos. <br>
+              -Puede ser una opción para aplicaciones Android que necesiten acceder a una base de datos centralizada o compartida. 
+            </samp></p>
+            <h4>SQLite</h4>
+            <p><samp class="highlight">
+              -Es una base de datos ligera y de código abierto, ideal para aplicaciones que necesitan almacenar datos localmente en el dispositivo. <br>
+              -No requiere un servidor dedicado, lo que la hace fácil de integrar en aplicaciones Android. <br>
+              -La propia plataforma Android proporciona herramientas para crear y gestionar bases de datos SQLite. 
+            </samp></p>
+            <h4>ROOM</h4>
+            <p><samp class="highlight">
+              -Es una biblioteca de persistencia de Android que actúa como una capa de abstracción sobre SQLite. <br>
+              -Facilita la interacción con la base de datos al permitir el mapeo de objetos Java a registros de la base de datos. <br>
+              -Ofrece validación de consultas en tiempo de compilación, lo que ayuda a detectar errores antes de la ejecución. <br>
+              -Se integra bien con otras bibliotecas de Android como LiveData y RxJava
+            </samp></p>
+            <h4>ORM</h4>
+            <p><samp class="highlight">
+              Es una técnica que permite mapear objetos de una aplicación a tablas de una base de datos y viceversa, simplificando el acceso y la manipulación de datos
+            </samp></p>
+          </code>
+        </div>
+        <div class="code-block">
+          <code>
+            <h3>Seguridad y niveles de seguridad para Android</h3>
+            <p><span class="highlight">La seguridad integrada de tu dispositivo siempre está activa. La inteligencia avanzada y el aprendizaje 
+              automático ayudan a protegerte de forma proactiva contra nuevas amenazas todos los días. Además, ayudan a defender tus datos 
+              contra apps malintencionadas, software malicioso, phishing y spam. Administra con comodidad la forma en que se comparten y usan 
+              tus datos. Accede a todas las opciones de tu configuración de privacidad en un solo lugar y cambia los permisos fácilmente en cualquier momento.
+            </span></p>
+            <h4>Niveles de seguridad</h4>
+            <p><samp class="highlight">
+              -Hardware: Android utiliza hardware específico para mejorar la seguridad, como el uso de un Secure Element para almacenar datos sensibles. <br>
+              -Sistema Operativo:Android proporciona una base segura con funciones como la encriptación, la verificación de apps y la zona de pruebas para apps. <br>
+              -Red: Android ofrece protección contra spam y phishing, y también alerta sobre sitios web potencialmente peligrosos. <br>
+              -Seguridad Proactiva: Android ofrece funciones de seguridad proactivas que ayudan a proteger tus datos, como la protección contra software malicioso, la verificación 
+              de apps, y las actualizaciones de seguridad. <br>
+              -Actualizaciones de seguridad: Proporcionan soluciones a vulnerabilidades y mejoran las funciones de seguridad. <br>
+              -Encriptación: Cifra los datos almacenados en el dispositivo para proteger la información confidencial. <br>
+              -Protección contra spam y phishing: Filtra los mensajes de spam y phishing, y alerta sobre sitios web peligrosos. <br>
+              -Gestión de permisos: Permite a los usuarios controlar los permisos de las aplicaciones y cambiar los permisos fácilmente en cualquier momento. 
+            </samp></p>
+          </code>
+        </div>
+        <div class="code-block">
+          <code>
+            <h3>Mecanismo de perfección en Android</h3>
+            <p><span class="highlight">Para garantizar el funcionamiento y correcto desempeño de cualquier dispositivo con Android se establececieron 
+              mecanismos de protección en diversos niveles.            </span></p>
+              <p><samp class="highlight">a) Acceso o permiso a la galeria de fotos y videos.</samp></p>
+              <p><samp class="highlight">b) Configuración de dispositivos de hardware como camara frontal y principal.</samp></p>
+              <p><samp class="highlight">c) Acceso a la señal Wi-Fi o internet.</samp></p>
+              <p><samp class="highlight">d) Acceso y permisos de notificación al sistema.</samp></p>
+              <p><samp class="highlight">e) Configuración de resolución de pantalla, brillo y modo de lectura.</samp></p>
+              <p><samp class="highlight">Por lo tanto también se considera en la forma en como se accede a travez de datos biometricos, dactilares, por contraseña o PIN.</samp></p>           
+          </code>
+        </div>    
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button class="accordion-header" onclick="toggleAccordion(this)">
+      <span class="accordion-item-title">Actividades de codigos</span>
+      <svg class="accordion-arrow" viewBox="0 0 24 24">
+          <path d="M7 10l5 5 5-5z"/>
+      </svg>
+    </button>
+
+    <div class="accordion-content">
+      <div  class="content-section">
+        <h3>Actividades Unidad 1</h3>
+        <p>Video de YouTube</p>
+        <div class="code-block">
+          <code>
+            <div class="puesto">
+              <iframe class="content-video" 
+                src="https://www.youtube.com/embed/T4hdylUvBkA?si=9UuhgnlrYkrjrjR8" 
+                title="How to learn HTML in 10 minutes"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+              </iframe>
+              <p><samp class="highlight">El codigo a usar en la consola es: dotnet --list-sdks</samp></p>
+            </div>
+          </code>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<p>&nbsp;</p>
+
+<div class="footer"> <!-- Pie de pagina -->
+  <p>&copy; 2025 Mi BasicProgramming. Todos los derechos reservados.</p>
+  <p>Medina Duran José Manuel N.C:22321052290612</p>
+  <p>Valencia Casiano David N.C:22321052290637</p>
+  <p>Nicolas Hernández Sergio N.C:22321052290617</p>
+</div>
+
+</body>
+</html>

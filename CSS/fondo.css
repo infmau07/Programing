@@ -1,0 +1,26 @@
+body{
+    background-color: #11aac18d;
+      margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.justificado {
+  text-align: justify;      /* Justifica el texto */
+  text-indent: 2em;         /* Sangría en la primera línea */
+  margin: 15px;             /* Margen externo opcional */
+  line-height: 1.6;         /* Espaciado entre líneas */
+}
+
+.contenedor-texto {
+  max-width: 800px;
+  margin: 0 auto;       /* Centra horizontalmente */
+  padding: 20px;        /* Espacio interior */
+  background-color: white;
+  border-radius: 8px;   /* Opcional: bordes redondeados */
+}
+
+.puesto {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* espacio entre imagen y texto */
+}

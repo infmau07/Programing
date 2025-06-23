@@ -1,0 +1,31 @@
+.top-bar {
+  display: flex;
+  align-items: center;
+  background-color: purple;
+  padding: 10px;
+}
+
+.info-bar {
+  margin-left: 20px;
+  color: white;
+}
+
+.info-bar h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.info-bar p {
+    margin: 2px 0 0;
+    font-size: 14px;
+}
+
+.footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
